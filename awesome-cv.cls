@@ -78,8 +78,7 @@
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
 % Needed to deal hyperlink
-\RequirePackage[hidelinks]{hyperref}
-\RequirePackage{tikz}
+\RequirePackage[hidelinks,unicode]{hyperref}
 \hypersetup{%
   pdftitle={},
   pdfauthor={},
@@ -131,8 +130,6 @@
 \definecolor{blue}{HTML}{6CE0F1}
 % Text colors
 \definecolor{darktext}{HTML}{414141}
-\definecolor{mainblue}{HTML}{0E5484}
-\definecolor{maingray}{HTML}{B9B9B9}
 \colorlet{text}{darkgray}
 \colorlet{graytext}{gray}
 \colorlet{lighttext}{lightgray}
@@ -673,32 +670,3 @@
       \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
     }
 }
-
-% Additional goodies
-\newcommand\skills[1]{ 
-	\renewcommand{\givenskill}{
-		\noindent
-		\begin{tikzpicture}
-		\foreach [count=\i] \x/\y in {#1}
-		{
-			
-			\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-			\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-			\node [above right ] at (0,\i+0.4) {\x};
-		}
-		\end{tikzpicture}
-	}
-}
-\newcommand{\givenskill}{}
-\newcommand\skillstext[1]{ 
-	\renewcommand{\giventextskill}{
-		\begin{flushleft}
-			\noindent
-			\foreach [count=\i] \x/\y in {#1}
-			{ 
-				\x$ \star $\y
-			}
-		\end{flushleft}
-	}
-}
-\newcommand{\giventextskill}{}
