@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.6.20)  7 SEP 2016 10:07
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.6.20)  18 OCT 2016 07:57
 entering extended mode
 **./cv_pl.tex
 (cv_pl.tex
@@ -863,27 +863,32 @@ lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
 ut line 16.
 
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--47
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--53
    [] 
  []
 
 
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--47
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--53
    [] 
  []
 
 
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--47
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--53
    [] 
  []
 
 
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--47
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--53
    [] 
  []
 
 
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--47
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--53
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--53
    [] 
  []
 
@@ -907,18 +912,22 @@ Overfull \hbox (59.51791pt too wide) in alignment at lines 10--29
 [] [] 
  []
 
-)
+) (sections/zgoda.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--98
+
+ []
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
- [2]
+[2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (C:\Users\cezary.blajszczak\Documents\GitHub\cv_tex\output\cv_pl.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 28058 strings out of 428410
- 482845 string characters out of 3159548
- 610181 words of memory out of 3000000
+ 28061 strings out of 428410
+ 482886 string characters out of 3159548
+ 609181 words of memory out of 3000000
  31202 multiletter control sequences out of 15000+200000
  7826 words of font info for 89 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
